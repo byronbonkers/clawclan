@@ -1,6 +1,7 @@
-openssl
-time
-logging
-ssl
-paho-mqtt
-mqtt-client
+pyopenssl==23.0.0
+paho-mqtt==1.6.1
+mqtt-client==1.6.0
+websocket_client==0.56.0
+configparser==3.5.0
+logging==0.4.9.6;python_version<"3.0"
+requests==2.22.0
