@@ -1,0 +1,6 @@
+#!/bin/bash
+# suggested use for this:
+# (1) use "crontab -e" to create a crontab entry: @reboot /bin/bash /home/pi/clawclan/start_machine
+
+cd /home/pi/clawclan
+nohup repeat_start python3 machine/control.py &> /dev/null &
